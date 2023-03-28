@@ -13,20 +13,18 @@
 <body>
     <header>
                 <ol id="list">
+                 <h1>TO-DO-LIST</h1>
                   <li >
-                    <a>Login/Register</a>
+                    <a>CODE</a>
                   </li>
                   <li>
-                    <a>Regulations</a>
+                    <a>READ</a>
                   </li>
                   <li>
-                    <a>About Sydbank</a>
+                    <a>ASSIGNMENT</a>
                   </li>
                   <li>
-                    <a>ESG & Sustainability</a>
-                  </li>
-                  <li>
-                    <a>Contact Us</a>
+                    <a>WORK-OUT</a>
                   </li>
                 </ol>
                 <button type="button" id="add" class="btn btn-primary" onclick="Add()">Add</button>
@@ -38,7 +36,7 @@
 <script>
   function Add(){
   const node = document.createElement("li");
-  const textnode = document.createTextNode("water");
+  const textnode = document.createTextNode("LAUNDRY");
   node.appendChild(textnode);
   document.getElementById("list").appendChild(node);
   }
